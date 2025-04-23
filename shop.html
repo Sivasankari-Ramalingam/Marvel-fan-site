@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merchandise</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="index.css">
+    <style>
+      .welcome{
+        font-style: italic;
+      }
+    </style>
+</head>
+<body>
+  <nav class="navbar">
+    <!-- <div class="logo">Marvel Fans</div> -->
+    <a href = "index.html" style = "text-decoration: none;"> <h1 id = "txtlogo1"> MARVEL </h1> </a>
+    <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    <img src = "Images/n1.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+    <img src = "Images/n2.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+    <img src = "Images/n3.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="characters.html">Characters</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="merch.html">Shop</a></li>
+        <li><a href="user.html">User Zone</a></li>
+    </ul>
+</nav>
+
+
+    <!-- <div class="row">
+      <div class="col-md-2">
+        <div class="sidenav">
+          <a class = "welcome" style = "color:yellow;" id = "defaultOpen" href="#" onclick="openPage(event, 'Welcome') ">MARVEL MERCHANDISE</a> 
+          <a href="#" onclick="openPage(event, 'Toys')">Toys & Plush</a>
+          <a href="#" onclick="openPage(event, 'Clothing')">Clothing</a>
+          <a href="#" onclick="openPage(event, 'Accessories')">Accessories</a>
+          <a href="#" onclick="openPage(event, 'Collectibles')">Collectibles</a>
+        </div>
+      </div> -->
+
+
+     
+<main style = "background-color: black; color: white;">
+
+      <div class = "container-fluid" id = "Welcome" style = "text-align: center; margin-top: 1%;">
+        <h3>Welcome to the Marvel Merchandise Shop!</h3>
+        <p>Discover our wide range of merchandise, including toys, clothing, accessories, and collectibles.</p><p> Enjoy your shopping experience at MARVEL.</p>
+      </div>
+       <div id="Toys">
+
+        <!-- <h3>Toys & Plush</h3>
+        <p>Discover new ways to show love for your favorite characters.</p> -->
+        <div class = "row" style = "margin-left: 5%; margin-bottom: 5%;">
+          <div class="container col-sm-3"> 
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product1.webp" alt="Product 1" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Our friendly neighborhood Spider-Man plush will capture your heart with his big, overstuffed feet. Ready to take on the bad guys and put an end to evildoings, he's bound to spin a web of playtime excitement!">
+                <h6 class="card-title">Spider-Man Big Feet Plush</h6> </a>
+                <p class="card-text">Price: $15.99</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product2.1.webp" alt="Product 2" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Swing into super sci-fi adventures along with Miles Morales as Spider-Man and this amazing talking action figure from the Marvel Power Icons series. Featuring motion-activated lights and sounds, button-activated character phrases and 13 points of articulation, this webbed wonder will soon be crossing from the Spider-Verse to your home turf.">
+                <h6 class="card-title">Spider-Man Action Figure</h6> </a>
+                <p class="card-text">Price: $22.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product3.webp" alt="Product 3" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Spidey and his amazing friends, Spin and Ghost-Spider, get equally amazing assistance from their Spider-Bots Twirl-E, Trace-E and Twist-E. Now you can call upon these arachnid assistants as pullback bot toys complete with authentic sound effects. Just pull back and let these crawlers go where the action is!">
+                <h6 class="card-title">Spider-Bot Pullbacks Play Set</h6> </a>
+                <p class="card-text">Price: $30.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product4.1.webp" alt="Product 4" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Hulk normally lets his muscles do his talking, but with this action figure he has plenty to say for himself. Featuring button-activated character phrases and multiple points of articulation, the Avenger comes with lever-activated smashing arms that really pack a punch.">
+                <h6 class="card-title">Hulk Talking Action Figure</h6> </a>
+                <p class="card-text">Price: $22.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product5.webp" alt="Product 5" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "They can imagine themselves as inventor Tony Stark's greatest creation when they assume the role of Iron Man by wearing this roleplay mask. The molded design has a flip-up front and features authentic character phrases so your young super hero can bring the legendary Avenger to life.">
+                <h6 class="card-title">Iron Man Mask</h6> </a>
+                <p class="card-text">Price: $30.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product6.webp" alt="Product 6" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "From Marvel's Guardians of the Galaxy comes an adorable Big Feet design for Baby Groot in this stellar soft plush toy with embroidered features, leafy trims and oversized roots!">
+                <h6 class="card-title">Baby Groot Big Feet Plush</h6> </a>
+                <p class="card-text">Price: $24.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product7.webp" alt="Product 7" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Summon the power of Thor with this Mjolnir Hammer that features sound effects. Enjoy exciting adventures as the god of thunder with this great roleplay accessory.">
+                <h6 class="card-title">Thor Mjolnir Hammer</h6> </a>
+                <p class="card-text">Price: $15.99</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product8.webp" alt="Product 8" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Wakanda forever! They will reign as King T'Challa when wearing this Black Panther mask. The molded design has dramatic light-up elements and features authentic character phrases so your young super hero can bring the Marvel legend to life with this roleplay accessory!">
+                <h6 class="card-title">Black Panther Light-Up Mask</h6> </a>
+                <p class="card-text">Price: $19.99</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product9.webp" alt="Product 9" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Defend justice and truth behind Captain America's iconic star-studded shield featuring over 15 sound effects. Your young super hero can imagine themselves as the patriotic Avenger with this great roleplay accessory.">
+                <h6 class="card-title">Captain America Shield</h6> </a>
+                <p class="card-text">Price: $22.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product10.webp" alt="Product 10" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "The God of Mischief has plenty to say for himself in his role of Marvel super hero with this Loki talking action figure. Featuring button-activated character phrases and multiple points of articulation, Thor's brother comes with his signature horned helmet and scepter.">
+                <h6 class="card-title">Loki Talking Action Figure</h6> </a>
+                <p class="card-text">Price: $22.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product11.webp" alt="Product 11" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Throw down the gauntlet for coolest action figure in the neighborhood with this amazingly detailed talking Thanos action figure, ready to take down the Avengers in his own endgame. Press the button to play Thanos phrases and sound effects–or light-up the Infinity Gauntlet!">
+                <h6 class="card-title">Thanos Talking Action Figure</h6> </a>
+                <p class="card-text">Price: $22.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+          <div class="container col-sm-3">
+            <div class="card" style="width:210px; margin-bottom: 5%;">
+              <img class="card-img-top" src="Images/shop/toys/product12.webp" alt="Product 12" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Earth's mightiest heroes assemble in this Avengers Deluxe Figure Play Set. Now you can recreate some of your favorite scenes, or even create your own, with this set that features eight detailed figurines from the Marvel Universe all on their own Avengers base!">
+                <h6 class="card-title">Avengers Deluxe Figure Play Set</h6> </a>
+                <p class="card-text">Price: $22.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+        </div>
+          
+      </div>
+          </div>
+          
+        </div>
+        
+        <!-- <div id="Accessories" class="tabcontent">
+          <h3>Accessories</h3>
+          <p>Wear it and feel it!</p>
+        </div> -->
+        
+        <!-- <div id="Collectibles" class="tabcontent">
+          <h3>Collectibles</h3>
+          <p>Let's show the world that we are serious!</p>
+          <div class="container col-sm-3">
+            <div class="card" style="width:180px;">
+              <img class="card-img-top" src="Images/shop/toys/product1.webp" alt="Product 4" style="width:100%">
+              <div class="card-body justify-content-center">
+                <a href = "#" data-bs-toggle = "popover" data-bs-trigger = "hover" data-bs-content = "Bearing the wrathful scars brought down by Thanos, this battle-damaged Captain America shield is a detailed replica inspired by Marvel Studios' Avengers: Endgame. This limited edition collectors' replica features movie-accurate sound and light effects that capture the thrill of the film's epic battle scene.">
+                <h6 class="card-title">Captain America Battle-Damaged Shield – Limited Edition</h6> </a>
+                <p class="card-text">Price: $400.00</p>              
+              
+                <input type="number" id="quantity" value="1" min="1" max="10">
+                <button type = "button" class="btn btn-primary btn-sm">Add to Cart</butto>
+              
+              </div>
+            </div> 
+          </div>
+        </div> -->
+      </div>
+    <!-- </div> row div -->
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>Designed by Sivasankari Ramalingam </h3>
+            <p>A website for all Marvel enthusiasts to connect and explore the universe of heroes, comics, and movies!</p>
+        </div>
+        <div style = "display:inline;">
+            <p>&copy; 2024 Marvel Fans. All Rights Reserved.</p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/marvelstudios" target="_blank" class="social-icon"><img src = "Images/Social media/facebook.svg" style="height:30px; width:30px;"></a>
+                <a href="https://x.com/marvel" target="_blank" class="social-icon"><img src = "Images/Social media/twitter.svg" style="height:30px; width:30px;"></a>
+                <a href="https://www.instagram.com/marvel/" target="_blank" class="social-icon"><img src = "Images/Social media/instagram.svg" style="height:30px; width:30px;"></a>
+                <a href="https://www.youtube.com/marvel" target="_blank" class="social-icon"><img src = "Images/Social media/youtube.svg" style="height:30px; width:30px;"></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="footer-bottom">
+        <p>&copy; 2024 Marvel Fans. All Rights Reserved.</p>
+    </div> -->
+</footer>
+
+
+    <script src = "shop.js"></script>
+</body>
+</html>

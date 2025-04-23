@@ -1,0 +1,74 @@
+/* .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  } */
+  
+  /* .tablink:hover {
+    background-color: #777;
+  } */
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 20px 20px;
+    height: 100%;
+  }
+  
+  #Toys {background-color: red;}
+  #Clothing {background-color: green;}
+  #Accessories {background-color: blue;} 
+   #Collectibles {background-color: orange;}
+
+ 
+
+  /* sidebar styles */
+
+  .sidenav {
+    height: 60%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 50;
+    left: 0;
+    
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e6dcdc;
+    display: block;
+    
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .container{
+    padding-top: 10px;
+  }

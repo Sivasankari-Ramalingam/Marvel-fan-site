@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies & TV Shows</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body style = "background-color: black;">
+    <nav class="navbar">
+        <!-- <div class="logo">Marvel Fans</div> -->
+        <a href = "index.html" style = "text-decoration: none;"> <h1 id = "txtlogo1"> MARVEL </h1> </a>
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <img src = "Images/n1.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+        <img src = "Images/n2.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+        <img src = "Images/n3.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="user.html">User Zone</a></li>
+        </ul>
+    </nav>
+<main>
+     <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" data-interval = "1000">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active animate__animated animate__fadeInRight">
+        <img src="Images/movies/hero images/thumb-1920-1217457.jpg" alt="img1" class="d-block w-100">
+      </div>
+      <div class="carousel-item animate__animated animate__fadeInRight">
+        <img src="Images/movies/hero images/thumb-1920-589553.png" alt="img2" class="d-block w-100">
+      </div>
+      <div class="carousel-item animate__animated animate__fadeInRight">
+        <img src="Images/movies/hero images/thumb-1920-651226.jpg" alt="img3" class="d-block w-100">
+      </div>
+      <div class="carousel-item animate__animated animate__fadeInRight">
+        <img src="Images/movies/hero images/thumb-1920-706198.jpg" alt="img4" class="d-block w-100">
+      </div>
+    </div>
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+   
+    <div class = "row" style = "padding-bottom: 5%;">
+
+        <!--IRONMAN SIDE SCREEN-->
+        <div class = "offcanvas offcanvas-end" id = "ironman">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title">Iron Man</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class = "offcanvas-body">
+            <p> Iron Man is a 2008 superhero film, based on the Marvel Comics superhero of the same name. It is the first film and installment in the Marvel Cinematic Universe, and the first film of Phase One and The Infinity Saga. The film was released on April 30, 2008 internationally and on May 2, 2008 in the United States. </p>
+
+            <img src = "Images/movies/rdj.png" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Robert Downey Jr.">
+            <img src = "Images/movies/gwyneth.jpg" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Gwyneth Paltrow">
+            <img src = "Images/movies/terrence.jpg" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Terrence Howard">
+            <img src = "Images/movies/jeff.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Jeff Bridges">
+            <br> <br> <br>
+
+
+            <table class="table table-bordered table-sm">
+                
+                    <tr>
+                    <th scope="col">Title</th>
+                    <td>Iron Man</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Release Date</th>
+                    <td>May 2, 2008</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Directed by</th>
+                    <td>Jon Favreau</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Written by</th>
+                    <td>Mark Fergus, Hawk Ostby, Art Marcum, Matt Holloway</td>
+                    </tr>                    
+                    <tr>
+                    <th scope="col">Cinematography</th>
+                    <td>Matthew Libatique</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Music</th>
+                    <td>Ramin Djawadi</td>
+                    </tr>                    
+                    <tr>
+                    <th scope="col">Editing</th>
+                    <td>Dan Lebental</td>
+                    </tr>                                                          
+                    <tr>
+                    <th scope="col">Box Office</th>
+                    <td>$585.8 million</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Running Time</th>
+                    <td>126 minutes</td>
+                    </tr>
+                    <tr>
+                                       
+                    
+            </table>
+           </div>
+        </div>
+
+
+        <!--INCREDIBLE HULK SIDE SCREEN-->
+        <div class = "offcanvas offcanvas-end" id = "incrediblehulk">
+            <div class="offcanvas-header">
+                <h4 class="offcanvas-title">The Incredible Hulk</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+           <div class = "offcanvas-body">
+            <p> In this new beginning, scientist Bruce Banner desperately hunts for a cure to the gamma radiation that poisoned his cells and unleashes the unbridled force of rage within him: The Hulk. Living in the shadows--cut off from a life he knew and the woman he loves, Betty Rossatic Universe, and the first film of Phase One and The Infinity Saga. The film was released on April 30, 2008 internationally and on May 2, 2008 in the United States. </p>
+
+            <img src = "Images/movies/incredibleHulk/edward.jpg" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Edward Norton">
+            <img src = "Images/movies/incredibleHulk/tyler.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Liv Tyler">
+            <img src = "Images/movies/incredibleHulk/roth.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Tim Roth">
+            <img src = "Images/movies/incredibleHulk/william.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "William Hurt">
+            <br> <br> <br>
+
+
+            <table class="table table-bordered table-sm">
+                
+                <tr>
+                    <th scope="col">Title</th>
+                    <td>The Incredible Hulk</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Release Date</th>
+                    <td>June 13, 2008</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Directed by</th>
+                    <td>Louis Leterrier</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Written by</th>
+                    <td>Zak Penn</td>
+                    </tr>                    
+                    <tr>
+                    <th scope="col">Cinematography</th>
+                    <td>Peter Menzies Jr.</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Music</th>
+                    <td>Craig Armstrong</td>
+                    </tr>                    
+                    <tr>
+                    <th scope="col">Editing</th>
+                    <td>John Wright, Rick Shaine, Vincenet Tabailon</td>
+                    </tr>                                                          
+                    <tr>
+                    <th scope="col">Box Office</th>
+                    <td>$265.5 million</td>
+                    </tr>
+                    <tr>
+                    <th scope="col">Running Time</th>
+                    <td>112 minutes</td>
+                    </tr>
+                    <tr>
+                    
+            </table>
+           </div>
+        </div>
+
+<!--IRON MAN 2 SIDE SCREEN-->
+<div class = "offcanvas offcanvas-start" id = "ironman2">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Iron Man 2</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class = "offcanvas-body">
+    <p> With the world now aware that he is Iron Man, billionaire inventor Tony Stark faces pressure from all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing the information will fall into the wrong hands. With Pepper Potts and "Rhodey" Rhodes by his side, Tony must forge new alliances and confront a powerful new enemy. </p>
+
+    <img src = "Images/movies/rdj.png" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Robert Downey Jr.">
+    <img src = "Images/movies/gwyneth.jpg" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Gwyneth Paltrow">
+    <img src = "Images/movies/ironman2/mickey.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Mickey Rourke">
+    <img src = "Images/movies/ironman2/scarlett.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Scarlett Johansson">
+    <br> <br> <br>
+
+
+    <table class="table table-bordered table-sm">
+        
+        <tr>
+            <th scope="col">Title</th>
+            <td>Iron Man 2</td>
+            </tr>
+            <tr>
+            <th scope="col">Release Date</th>
+            <td>May 7, 2010</td>
+            </tr>
+            <tr>
+            <th scope="col">Directed by</th>
+            <td>Jon Favreau</td>
+            </tr>
+            <tr>
+            <th scope="col">Written by</th>
+            <td>Justin Theroux</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Cinematography</th>
+            <td>Matthew Libatique</td>
+            </tr>
+            <tr>
+            <th scope="col">Music</th>
+            <td>John Debney</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Editing</th>
+            <td>Dan Lebental, Richard Pearson</td>
+            </tr>                                                          
+            <tr>
+            <th scope="col">Box Office</th>
+            <td>$623.9 million</td>
+            </tr>
+            <tr>
+            <th scope="col">Running Time</th>
+            <td>125 minutes</td>
+            </tr>
+            <tr>
+            
+    </table>
+   </div>
+</div>
+
+
+<!--Thor SIDE SCREEN-->
+<div class = "offcanvas offcanvas-start" id = "thor">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Thor</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class = "offcanvas-body">
+    <p> As the son of Odin, king of the Norse gods, Thor will soon inherit the throne of Asgard from his aging father. However, on the day that he is to be crowned, Thor reacts with brutality when the gods' enemies, the Frost Giants, enter the palace in violation of their treaty. As punishment, Odin banishes Thor to Earth. While Loki, Thor's brother, plots mischief in Asgard, Thor, now stripped of his powers, faces his greatest threat. </p>
+
+    <img src = "Images/movies/Thor/hemsworth.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Chris Hemsworth">
+    <img src = "Images/movies/Thor/portman.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Natalie Portman">
+    <img src = "Images/movies/Thor/tom.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Tom Hiddleston">
+    <img src = "Images/movies/Thor/anthony.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Anthony Hopkins">
+    <br> <br> <br>
+
+
+    <table class="table table-bordered table-sm">
+        
+        <tr>
+            <th scope="col">Title</th>
+            <td>Thor</td>
+            </tr>
+            <tr>
+            <th scope="col">Release Date</th>
+            <td>May 6, 2011</td>
+            </tr>
+            <tr>
+            <th scope="col">Directed by</th>
+            <td>Kenneth Branagh</td>
+            </tr>
+            <tr>
+            <th scope="col">Written by</th>
+            <td>Ashley Miller, Zack Stentz, Don Payne</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Cinematography</th>
+            <td>Haris Zambarloukos</td>
+            </tr>
+            <tr>
+            <th scope="col">Music</th>
+            <td>Patrick Doyle</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Editing</th>
+            <td>Paul Rubell</td>
+            </tr>                                                          
+            <tr>
+            <th scope="col">Box Office</th>
+            <td>$449.3 million</td>
+            </tr>
+            <tr>
+            <th scope="col">Running Time</th>
+            <td>115 minutes</td>
+            </tr>
+            <tr>
+            
+    </table>
+   </div>
+</div>
+
+<!--CAPTAIN AMERICA 1 SIDE SCREEN-->
+<div class = "offcanvas offcanvas-end" id = "ca1">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Captain America: The First Avenger</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class = "offcanvas-body">
+    <p> Marvel's "Captain America: The First Avenger" focuses on the early days of the Marvel Universe when Steve Rogers volunteers to participate in an experimental program that turns him into the Super Soldier known as Captain America. </p>
+
+    <img src = "Images/movies/CA1/evans.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Chris Evans">
+    <img src = "Images/movies/CA1/hayley.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Hayley Atwell">
+    <img src = "Images/movies/CA1/stan.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Sebastian Stan">
+    <img src = "Images/movies/CA1/tommy.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Tommy Lee Jones">
+    <br> <br> <br>
+
+
+    <table class="table table-bordered table-sm">
+        
+        <tr>
+            <th scope="col">Title</th>
+            <td>Captain America: The First Avenger</td>
+            </tr>
+            <tr>
+            <th scope="col">Release Date</th>
+            <td>July 22, 2011</td>
+            </tr>
+            <tr>
+            <th scope="col">Directed by</th>
+            <td>Joe Johnston</td>
+            </tr>
+            <tr>
+            <th scope="col">Written by</th>
+            <td>Christopher Markus, Stephen McFeely</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Cinematography</th>
+            <td>Shelly Johnson</td>
+            </tr>
+            <tr>
+            <th scope="col">Music</th>
+            <td>Alan Silvestri</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Editing</th>
+            <td>Jeffrey Ford, Robert Dalva</td>                
+            </tr>                                                          
+            <tr>
+            <th scope="col">Box Office</th>
+            <td>$370.6 million</td>
+            </tr>
+            <tr>
+            <th scope="col">Running Time</th>
+            <td>124 minutes</td>
+            </tr>
+            <tr>
+            
+    </table>
+   </div>
+</div>
+
+
+<!--AVENGERS 1 SIDE SCREEN-->
+<div class = "offcanvas offcanvas-end" id = "avengers1">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Avengers</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class = "offcanvas-body">
+    <p> "Marvel's The Avengers"--the super hero team up of a lifetime, featuring iconic Marvel super heroes Iron Man, the Incredible Hulk, Thor, Captain America, Hawkeye and Black Widow. When an unexpected enemy emerges that threatens global safety and security, Nick Fury, Director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins. </p>
+
+    <img src = "Images/movies/CA1/evans.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Chris Evans">
+    <img src = "Images/movies/rdj.png" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Robert Downey Jr.">
+    <img src = "Images/movies/Thor/hemsworth.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Chris Hemsworth">
+    <img src = "Images/movies/mark.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Mark Ruffalo">
+    <br> <br> <br>
+
+
+    <table class="table table-bordered table-sm">
+        
+        <tr>
+            <th scope="col">Title</th>
+            <td>Avengers</td>
+            </tr>
+            <tr>
+            <th scope="col">Release Date</th>
+            <td>May 4, 2012</td>
+            </tr>
+            <tr>
+            <th scope="col">Directed by</th>
+            <td>Joss Whedon</td>
+            </tr>
+            <tr>
+            <th scope="col">Written by</th>
+            <td>Joss Whedon</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Cinematography</th>
+            <td>Seamus McGarvey</td>
+            </tr>
+            <tr>
+            <th scope="col">Music</th>
+            <td>Alan Silvestri</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Editing</th>
+            <td>Jeffrey Ford, Lisa Lassek</td>                
+            </tr>                                                          
+            <tr>
+            <th scope="col">Box Office</th>
+            <td>$1.521 billion</td>
+            </tr>
+            <tr>
+            <th scope="col">Running Time</th>
+            <td>143 minutes</td>
+            </tr>
+            <tr>
+            
+    </table>
+   </div>
+</div>
+
+<!--IRON MAN 3 SIDE SCREEN-->
+<div class = "offcanvas offcanvas-start" id = "ironman3">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Iron Man 3</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class = "offcanvas-body">
+    <p> Marvel's "Iron Man 3" pits brash-but-brilliant industrialist Tony Stark/Iron Man against an enemy whose reach knows no bounds. When Stark finds his personal world destroyed at his enemy's hands, he embarks on a harrowing quest to find those responsible. This journey, at every turn, will test his mettle. With his back against the wall, Stark is left to survive by his own devices, relying on his ingenuity and instincts to protect those closest to him. As he fights his way back, Stark discovers the answer to the question that has secretly haunted him: does the man make the suit or does the suit make the man </p>
+
+    <img src = "Images/movies/rdj.png" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Robert Downey Jr.">
+    <img src = "Images/movies/gwyneth.jpg" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Gwyneth Paltrow">
+    <img src = "Images/movies/ironman3/don.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Don Cheadle">
+    <img src = "Images/movies/ironman3/guy.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Guy Pearce">
+    <br> <br> <br>
+
+
+    <table class="table table-bordered table-sm">
+        
+        <tr>
+            <th scope="col">Title</th>
+            <td>Iron Man 3</td>
+            </tr>
+            <tr>
+            <th scope="col">Release Date</th>
+            <td>May 3, 2013</td>
+            </tr>
+            <tr>
+            <th scope="col">Directed by</th>
+            <td>Shane Black</td>
+            </tr>
+            <tr>
+            <th scope="col">Written by</th>
+            <td>Drew Pearce, Shane Black</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Cinematography</th>
+            <td>Matthew Libatique</td>
+            </tr>
+            <tr>
+            <th scope="col">Music</th>
+            <td>John Debney</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Editing</th>
+            <td>Jeffrey Ford, Peter S.Elliot</td>
+            </tr>                                                          
+            <tr>
+            <th scope="col">Box Office</th>
+            <td>$1.216 billion</td>
+            </tr>
+            <tr>
+            <th scope="col">Running Time</th>
+            <td>131 minutes</td>
+            </tr>
+            <tr>
+            
+    </table>
+   </div>
+</div>
+
+
+
+
+<!--Thor Dark World SIDE SCREEN-->
+<div class = "offcanvas offcanvas-start" id = "thordark">
+    <div class="offcanvas-header">
+        <h4 class="offcanvas-title">Thor The Dark World</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+   </div>
+   <div class = "offcanvas-body">
+    <p> In the aftermath of Marvel's "Thor" and "Marvel's The Avengers," Thor fights to restore order across the cosmos...but an ancient race led by the vengeful Malekith returns to plunge the universe back into darkness. Faced with an enemy that even Odin and Asgard cannot withstand, Thor must embark on his most perilous and personal journey yet, one that will reunite him with Jane Foster and force him to sacrifice everything to save us all. </p>
+
+    <img src = "Images/movies/Thor/hemsworth.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Chris Hemsworth">
+    <img src = "Images/movies/Thor/portman.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Natalie Portman">
+    <img src = "Images/movies/Thor/tom.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Tom Hiddleston">
+    <img src = "Images/movies/Thor/anthony.webp" class="img-fluid rounded-circle" style = "height:25%;width:auto;" data-bs-toggle="tooltip" title = "Anthony Hopkins">
+    <br> <br> <br>
+
+
+    <table class="table table-bordered table-sm">
+        
+        <tr>
+            <th scope="col">Title</th>
+            <td>Thor The Dark World</td>
+            </tr>
+            <tr>
+            <th scope="col">Release Date</th>
+            <td>November 8, 2013</td>
+            </tr>
+            <tr>
+            <th scope="col">Directed by</th>
+            <td>Alan Taylor</td>
+            </tr>
+            <tr>
+            <th scope="col">Written by</th>
+            <td>Christopher L. Yost, Christopher Markus, Stephen McFeely</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Cinematography</th>
+            <td>Kramer Morgenthau</td>
+            </tr>
+            <tr>
+            <th scope="col">Music</th>
+            <td>Brian Tyler</td>
+            </tr>                    
+            <tr>
+            <th scope="col">Editing</th>
+            <td>Dan Lebental, Wyatt Smith</td>
+            </tr>                                                          
+            <tr>
+            <th scope="col">Box Office</th>
+            <td>$644.8 million</td>
+            </tr>
+            <tr>
+            <th scope="col">Running Time</th>
+            <td>112 minutes</td>
+            </tr>
+            <tr>
+            
+    </table>
+   </div>
+</div>
+
+
+
+
+
+
+
+        <!--MAIN SCREEN CONTENTS-->
+            
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+           <img src="Images/movies/iron1.jpg" class = "img-thumbnail w-50 h-50" alt="Ironman"> 
+            <h4 class = "text-primary">Iron Man</h4> 
+            <small class = "text-white">(2008)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#ironman">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/incredibleHulk/movieposter.jpg" class = "img-thumbnail w-50 h-50" alt="Incredible Hulk">
+            <h4 class = "text-primary">The Incredible Hulk</h4>
+           <small class = "text-white">(2008)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#incrediblehulk">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/ironman2/poster.jpg" class = "img-thumbnail w-50 h-50" alt="Ironman 2">
+            <h4 class = "text-primary">Iron Man 2</h4>
+            <small class = "text-white">(2010)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#ironman2">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/Thor/poster.jpg" class = "img-thumbnail w-50 h-50" alt="Thor">
+            <h4 class = "text-primary">Thor</h4>
+            <small class = "text-white">(2011)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#thor">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/CA1/poster.jpg" class = "img-thumbnail w-50 h-50" alt="ca1">
+            <h6 class = "text-primary">Captain America: The First Avenger</h6>
+            <small class = "text-white">(2011)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#ca1">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/avengers1/poster.jpg" class = "img-thumbnail w-50 h-50" alt="avengers1">
+            <h4 class = "text-primary">The Avengers</h4>
+            <small class = "text-white">(2012)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#avengers1">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/ironman3/poster.jpg" class = "img-thumbnail w-50 h-50" alt="ironman3">
+            <h4 class = "text-primary">Iron Man 3</h4>
+            <small class = "text-white">(2013)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#ironman3">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/thordark/poster.jpg" class = "img-thumbnail w-50 h-50" alt="thor_dark">
+            <h4 class = "text-primary">Thor: The Dark World</h4>
+            <small class = "text-white">(2013)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#thordark">Know More</button>
+        </div>
+        </div>
+
+        <!-- <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/ironman1.webp" class = "img-thumbnail w-50 h-50" alt="ca1">
+            <h6 class = "text-primary">Captain America: The Winter Soldier</h6>
+            <small class = "text-white">(2014)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#ironman">Know More</button>
+        </div>
+        </div>
+
+        <div class = "col-md-3">
+            <div class = "content-wrapper">
+            <img src="Images/movies/ironman1.webp" class = "img-thumbnail w-50 h-50" alt="ca1">
+            <h4 class = "text-primary">Guardians of the Galaxy</h4>
+            <small class = "text-white">(2014)</small>
+            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="offcanvas" data-bs-target="#ironman">Know More</button>
+        </div>
+        </div> -->
+    </div>
+        
+</main>
+    
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-about">
+            <h3>Designed by Sivasankari Ramalingam </h3>
+            <p>A website for all Marvel enthusiasts to connect and explore the universe of heroes, comics, and movies!</p>
+        </div>
+        <div style = "display:inline;">
+            <a href="mailto:ramalingam.sivasankari@gmail.com">Send Email to me</a>
+              <!-- <p>&copy; 2024 Marvel Fans. All Rights Reserved.</p> -->
+          </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/marvelstudios" target="_blank" class="social-icon"><img src = "Images/Social media/facebook.svg" style="height:30px; width:30px;"></a>
+                <a href="https://x.com/marvel" target="_blank" class="social-icon"><img src = "Images/Social media/twitter.svg" style="height:30px; width:30px;"></a>
+                <a href="https://www.instagram.com/marvel/" target="_blank" class="social-icon"><img src = "Images/Social media/instagram.svg" style="height:30px; width:30px;"></a>
+                <a href="https://www.youtube.com/marvel" target="_blank" class="social-icon"><img src = "Images/Social media/youtube.svg" style="height:30px; width:30px;"></a>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="footer-bottom">
+        <p>&copy; 2024 Marvel Fans. All Rights Reserved.</p>
+    </div> -->
+</footer>
+</body>
+</html>

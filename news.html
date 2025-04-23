@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel News</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style = "background-color: #0c0c0c;">
+    <nav class="navbar">
+        <!-- <div class="logo">Marvel Fans</div> -->
+        <a href = "index.html" style = "text-decoration: none;"> <h1 id = "txtlogo1"> MARVEL </h1> </a>
+        
+        <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        <!-- <img src = "Images/spidey.webp" class = "d-inline-block" alt = "Boy with book" style="width:100px;"> -->
+        <img src = "Images/n1.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+        <img src = "Images/n2.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+        <img src = "Images/n3.png" class = "d-inline-block" alt = "Boy with book" style="width:100px;">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="characters.html">Characters</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="user.html">User Zone</a></li>
+        </ul>
+    </nav>
+    <header style = "text-align: center; background: red; color: white; padding: 20px 0;">
+        <h1>Marvel News</h1>
+    </header>
+    <main style = "max-width: 1000px; margin: auto; padding:20px; background-color: #0c0c0c;">
+        <!-- <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="Images/news/breaking1.webp" alt="Image 1">
+            </div>
+            <div class="slide fade">
+                <img src="Images/news/deadpool.jpeg" alt="Image 2">
+            </div>
+            <div class="slide fade">
+                <img src="breaking3.jpg" alt="Image 3">
+            </div>
+        </div> -->
+        <section class="breaking-news">
+            <h2 style = "color: red;">Breaking News</h2>
+            <div class="news-slider">
+                <div class="slide active">
+                    <img src="Images/news/breaking1.webp" alt="Breaking News 1">
+                    <p>Red Hulk confirms a major power upgrade!</p>
+                </div>
+                <div class="slide">
+                    <img src="Images/news/deadpool.jpeg" alt="Breaking News 2">
+                    <p>‘Deadpool & Wolverine’ Now Available on Blu-ray!</p>
+                </div>
+                <div class="slide">
+                    <img src="Images/news/breaking3.webp" alt="Breaking News 3">
+                    <p>Chris Evans Returning to Marvel for ‘Avengers: Doomsday’!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-list" style = "margin-bottom: 10%;">
+            <article>
+                <img src="Images/news/thunderbolts1.avif" alt="News Image 1">
+                <h3>Thunderbolt is here!</h3>
+                <p>Marvel Studios Releases ‘Thunderbolts*’ Teaser Trailer and Poster</p>
+                <a href="https://www.marvel.com/articles/movies/thunderbolts-teaser-trailer-poster" target="_blank">Read more</a>
+            </article>
+            <article>
+                <img src="Images/news/news2.webp" alt="News Image 2">
+                <h3>Dr.Doom</h3>
+                <p>James Gunn gave his opinion on Marvel Studios bringing back Robert Downey Jr. for Doctor Doom.</p>
+                <a href="https://thedirect.com/article/james-gunn-robert-downey-jr-real-dr-doom" target="_blank">Read more</a>
+            </article>
+            <article>
+                <img src="Images/news/deadpool-tony.webp" alt="News Image 3">
+                <h3>Deadpool 3</h3>
+                <p>Deadpool 3 boasted an incredible cast, but there were even more characters on the drawing board who got scrapped.</p>
+                <a href="https://thedirect.com/article/deadpool-3-characters-scrapped-final-cut" target="_blank">Read more</a>
+            </article>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>Designed by Sivasankari Ramalingam </h3>
+                <p>A website for all Marvel enthusiasts to connect and explore the universe of heroes, comics, and movies!</p>
+            </div>
+            <div style = "display:inline;">
+                <a href="mailto:ramalingam.sivasankari@gmail.com">Send Email to me</a>
+                  <!-- <p>&copy; 2024 Marvel Fans. All Rights Reserved.</p> -->
+              </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/marvelstudios" target="_blank" class="social-icon"><img src = "Images/Social media/facebook.svg" style="height:30px; width:30px;"></a>
+                    <a href="https://x.com/marvel" target="_blank" class="social-icon"><img src = "Images/Social media/twitter.svg" style="height:30px; width:30px;"></a>
+                    <a href="https://www.instagram.com/marvel/" target="_blank" class="social-icon"><img src = "Images/Social media/instagram.svg" style="height:30px; width:30px;"></a>
+                    <a href="https://www.youtube.com/marvel" target="_blank" class="social-icon"><img src = "Images/Social media/youtube.svg" style="height:30px; width:30px;"></a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="footer-bottom">
+            <p>&copy; 2024 Marvel Fans. All Rights Reserved.</p>
+        </div> -->
+    </footer>
+    <script src="news-script.js"></script>
+</body>
+</html>
